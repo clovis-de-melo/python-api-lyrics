@@ -15,13 +15,14 @@ st.image("https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?aut
 st.title("Music Lyrics")
 artist = st.text_input("Type the artist´s name: ", key="artist")
 song = st.text_input("Type the song´s name:  ", key="song")
-search = st.button("Search")
+click_search = st.button("Search")
 
 # when clicking on search button
 
-if search:
+if click_search:
     lyric_result = search_lyric(artist, song)
     if lyric_result:
         st.success("We found the lyric you are looking for!")
+        st.text(lyric_result)
     else:
         st.error("Sorry, we could not find this lyric.")
