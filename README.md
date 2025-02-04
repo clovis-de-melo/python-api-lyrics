@@ -38,6 +38,8 @@
 
 `poetry add requests streamlit`
 
+`streamlit run app.py` localhost:8501
+
 
 
 
