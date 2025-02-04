@@ -24,7 +24,7 @@
 
 * **JSON (JavaScript Object Notation)**
 
-* **XML**
+* **XML** (Extensible Markup Language)
 
 ## Developer guidance
 
